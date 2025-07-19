@@ -9,4 +9,5 @@ def ask_ok(prompt, retries=4,reminder='please try again!' ):
         if reties < 0:
             raise ValueError('invalid user response')
         print(reminder)
-        
+
+ask_ok('queen')
