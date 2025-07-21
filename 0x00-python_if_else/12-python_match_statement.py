@@ -1,5 +1,5 @@
 # point a is an (x,y) tuple
-match point:
+match print:
     case (0,0):
         print("origin")
     case (0,y):
@@ -9,5 +9,5 @@ match point:
     case (x,y):
         print(f"x={x},y={y}")
     case _:
-        raise valueError("not a point")
+        raise ValueError("not a point")
         
