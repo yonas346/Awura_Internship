@@ -1,13 +1,20 @@
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
-fruits.count('apple')
-fruits.count('tangerine')
-fruits.index('banana') # Find first banana position
-fruits.index('banana', 4) # Find second banana starting at position of 4
+print(fruits.count('apple'))
+
+print(fruits.count('tangerine'))
+
+print(fruits.index('banana')) # Find first banana position
+
+print(fruits.index('banana', 4)) # Find second banana starting at position of 4
+
 fruits.reverse()
-fruits
+print(fruits)
+
 fruits.append( 'grape')
-fruits
+print(fruits)
+
 fruits.sort()
-fruits
+print(fruits)
+
 fruits.pop 
-fruits
+print(fruits[7])
