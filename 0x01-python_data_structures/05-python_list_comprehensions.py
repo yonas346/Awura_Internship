@@ -8,7 +8,7 @@ print([weapon.strip() for weapon in freshfruit])
 
 print([(x, x**2) for x in range(6)])
 # the tuple must be parenthesized , otherwise an error is raised 
-print([x, x**2 for x in range(6)])
+print([x, x**2 for x in range(6)]) # type: ignore
 
 vec = [[1,2,3], [4,5,6], [7,8,9]]
 print([num for elem in vec for num in elem])
